@@ -11,7 +11,7 @@ export class NavLogoComponent implements OnInit {
   public windowWidth: number;
 
   constructor() {
-    this.windowWidth = window.innerWidth;
+   this.windowWidth = window.innerWidth;
   }
 
   ngOnInit() {

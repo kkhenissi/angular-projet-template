@@ -17,7 +17,7 @@ export class TblBootstrapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.urlPhoto = '../../../../assets/images/nav-bg/navbar-img-2.jpg';
+    
     this.counter = 5;
     this.isActive = true;
   }
