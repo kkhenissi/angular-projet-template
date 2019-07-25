@@ -28,7 +28,7 @@ export interface Navigation extends NavigationItem {
 const NavigationItems = [
   {
     id: 'navigation',
-    title: 'Navigation',
+    title: '',
     type: 'group',
     icon: 'icon-navigation',
     children: [
@@ -44,107 +44,111 @@ const NavigationItems = [
   },
   {
     id: 'ui-element',
-    title: 'UI ELEMENT',
+    title: 'Administration',
     type: 'group',
     icon: 'icon-ui',
     children: [
       {
         id: 'components',
-        title: 'Components',
+        title: 'Gestion du portail',
         type: 'collapse',
         icon: 'feather icon-box',
         children: [
           {
             id: 'button',
-            title: 'Button',
+            title: 'Catégories articles',
             type: 'item',
             url: '/basic/button'
           },
           {
             id: 'badges',
-            title: 'Badges',
+            title: 'Sous-catégories articles',
             type: 'item',
             url: '/basic/badges'
           },
-          {
-            id: 'breadcrumb-pagination',
-            title: 'Breadcrumb & Pagination',
-            type: 'item',
-            url: '/basic/breadcrumb-paging'
-          },
-          {
-            id: 'collapse',
-            title: 'Collapse',
-            type: 'item',
-            url: '/basic/collapse'
-          },
-          {
-            id: 'tabs-pills',
-            title: 'Tabs & Pills',
-            type: 'item',
-            url: '/basic/tabs-pills'
-          },
-          {
-            id: 'typography',
-            title: 'Typography',
-            type: 'item',
-            url: '/basic/typography'
-          }
+           {
+             id: 'breadcrumb-pagination',
+             title: 'Paramètres globaux',
+             type: 'item',
+             url: '/basic/breadcrumb-paging'
+           },
+           {
+             id: 'collapse',
+             title: 'Campagnes',
+             type: 'item',
+             url: '/basic/collapse'
+           },
+           {
+             id: 'tabs-pills',
+             title: 'Gestion des imports',
+             type: 'item',
+             url: '/basic/tabs-pills'
+           },
+           {
+             id: 'typography',
+             title: 'Gestion des articles',
+             type: 'item',
+             url: '/basic/typography'
+           }
         ]
       }
     ]
   },
-  {
-    id: 'forms',
-    title: 'Forms & Tables',
-    type: 'group',
-    icon: 'icon-group',
-    children: [
-      {
-        id: 'forms-element',
-        title: 'Forms Elements',
-        type: 'item',
-        url: '/forms/basic',
-        icon: 'feather icon-file-text',
-        classes: 'nav-item'
-      },
-      {
-        id: 'tables',
-        title: 'Tables',
-        type: 'item',
-        url: '/tables/bootstrap',
-        icon: 'feather icon-server',
-        classes: 'nav-item'
-      }
-    ]
-  },
-  {
-    id: 'chart-maps',
-    title: 'Chart & Maps',
-    type: 'group',
-    icon: 'icon-charts',
-    children: [
-      {
-        id: 'charts',
-        title: 'Charts',
-        type: 'item',
-        url: '/charts/morris',
-        icon: 'feather icon-pie-chart',
-        classes: 'nav-item'
-      },
-      {
-        id: 'maps',
-        title: 'Maps',
-        type: 'item',
-        url: '/maps/google',
-        icon: 'feather icon-map',
-        classes: 'nav-item'
-      }
-    ]
-  },
+
+
+  // {
+  //   id: 'forms',
+  //   title: 'Forms & Tables',
+  //   type: 'group',
+  //   icon: 'icon-group',
+  //   children: [
+  //     {
+  //       id: 'forms-element',
+  //       title: 'Forms Elements',
+  //       type: 'item',
+  //       url: '/forms/basic',
+  //       icon: 'feather icon-file-text',
+  //       classes: 'nav-item'
+  //     },
+  //     {
+  //       id: 'tables',
+  //       title: 'Tables',
+  //       type: 'item',
+  //       url: '/tables/bootstrap',
+  //       icon: 'feather icon-server',
+  //       classes: 'nav-item'
+  //     }
+  //   ]
+  // },
+  // {
+  //   id: 'chart-maps',
+  //   title: 'Chart & Maps',
+  //   type: 'group',
+  //   icon: 'icon-charts',
+  //   children: [
+  //     {
+  //       id: 'charts',
+  //       title: 'Charts',
+  //       type: 'item',
+  //       url: '/charts/morris',
+  //       icon: 'feather icon-pie-chart',
+  //       classes: 'nav-item'
+  //     },
+  //     {
+  //       id: 'maps',
+  //       title: 'Maps',
+  //       type: 'item',
+  //       url: '/maps/google',
+  //       icon: 'feather icon-map',
+  //       classes: 'nav-item'
+  //     }
+  //   ]
+  // },
+
+
   {
     id: 'pages',
-    title: 'Pages',
+    title: 'Navigation',
     type: 'group',
     icon: 'icon-pages',
     children: [
